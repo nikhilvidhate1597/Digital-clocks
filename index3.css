@@ -151,17 +151,17 @@ select {
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     border: 1px solid var(--unnamed-color-ededed);
     background: #7c55a1 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
+    border: 1px solid white;
     border-radius: 10px;
     opacity: 0.7;
 }
 
 #wishcont {
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) 27px/34px var(--unnamed-font-family-bauhaus-hv-bt);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) 24px/32px var(--unnamed-font-family-bauhaus-hv-bt);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
     text-align: left;
-    font: normal normal 900 27px/34px Bauhaus Hv BT;
+    font: normal normal 900 23px/32px Bauhaus Hv BT;
     letter-spacing: 0px;
     color: #fffdfd;
     opacity: 1;
@@ -319,6 +319,14 @@ select {
     justify-content: center;
 }
 
+#imagelog {
+    border: 1px solid;
+    width: 450px;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .imagelog {
     margin-top: 1em;
     width: 27.5em;
@@ -326,7 +334,7 @@ select {
     border-radius: 10px;
     /* background: transparent url('img/Component 30 – 1.png') 0% 0% no-repeat padding-box; */
     opacity: 1;
-    background-image: url(Component\ 30\ –\ 1.svg);
+    background-image: url(./goodnight_image.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
